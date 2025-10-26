@@ -1,6 +1,6 @@
 # Use 6 fixed workspaces instead of dynamic mode
 gsettings set org.gnome.mutter dynamic-workspaces false
-gsettings set org.gnome.desktop.wm.preferences num-workspaces 6
+gsettings set org.gnome.desktop.wm.preferences num-workspaces 9
 
 # Unset super+number becuase for some reason gnome silenty changes them?
 gsettings set org.gnome.shell.keybindings switch-to-application-1 "[]"
