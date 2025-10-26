@@ -1,3 +1,8 @@
+# Add Flathub to user remotes:
+# flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+# Install your chosen app (example: KeePassXC) from Flathub for your user:
+# flatpak install --user flathub org.keepassxc.KeePassXC
+
 FLATPAKS=(
   "spotify"
   "discord"
